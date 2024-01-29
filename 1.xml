@@ -1,0 +1,124 @@
+
+1
+<?xml version="1.0" encoding="UTF-8" ?>
+2
+<!DOCTYPE html>
+3
+<html b:css='false' b:defaultwidgetversion='2' b:layoutsVersion='3' b:responsive='true' b:templateVersion='1.3.0' expr:class='data:blog.languageDirection' expr:dir='data:blog.languageDirection' expr:lang='data:blog.localeUnderscoreDelimited' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+4
+<head>
+5
+<b:include name='theme-head'/>
+6
+<b:if cond='!data:view.isLayoutMode'>
+7
+<!-- Theme CSS Style -->
+8
+<b:skin version='1.3.0'><![CDATA[/*
+9
+-----------------------------------------------
+10
+Blogger Template Style
+11
+Name:         Tecify
+12
+License:      Free Version
+13
+Version:      1.0
+14
+Author:       Templateify
+15
+Author Url:   https://www.templateify.com/
+16
+-----------------------------------------------*/
+17
+​
+18
+/*
+19
+<!-- Variable definitions -->
+20
+<Variable name="keycolor" description="Main Color" type="color" default="#4886ff" value="#4886ff"/>
+21
+<Group description="Theme Options">
+22
+    <Variable name="fixedmenu" description="Fixed Menu" type="length" default="1px" min="0px" max="1px" value="1px"/>
+23
+    <Variable name="sidebar" description="Left Sidebar" type="length" default="0px" min="0px" max="1px" value="0px"/>
+24
+    <Variable name="fixedsidebar" description="Fixed Sidebar" type="length" default="1px" min="0px" max="1px" value="1px"/>
+25
+</Group>
+26
+<Group description="Theme Widths">
+27
+    <Variable name="boxed" description="Boxed Mode" type="length" default="0px" min="0px" max="1px" value="0px"/>
+28
+    <Variable name="row.width" description="Container Width" type="length" default="1140px" min="1070px" max="1240px" value="1140px"/>
+29
+    <Variable name="sidebar.width" description="Sidebar Width" type="length" default="320px" min="250px" max="336px" value="320px"/>
+30
+</Group>
+31
+<Group description="Theme Fonts">
+32
+    <Variable name="main.font" description="Site Font" type="font" family="Roboto" default="normal 400 14px $(family)" value="normal 400 14px $(family)"/>
+33
+    <Variable name="menu.font" description="Menu Font" type="font" family="Roboto Condensed" default="normal 400 14px $(family)" value="normal 400 14px $(family)"/>
+34
+    <Variable name="title.font" description="Title Font" type="font" family="Roboto Condensed" default="normal 400 14px $(family)" value="normal 400 14px $(family)"/>
+35
+    <Variable name="text.font" description="Text Font" type="font" family="Roboto" default="normal 400 14px $(family)" value="normal 400 14px $(family)"/>
+36
+</Group>
+37
+<Group description="Background">
+38
+    <Variable name="background.color" description="Body Background" type="color" default="#f0fdff"  value="#f0fdff"/>
+39
+    <Variable name="body.background" description="Background" type="background" color="$(background.color)" default="$(color) none repeat fixed top left" value="$(color) none repeat fixed top left"/>
+40
+    <Variable name="outer.bg" description="Outer Wrapper Background" type="color" default="#fdfdfe"  value="#fdfdfe"/>
+41
+</Group>
+42
+<Group description="Theme Colors">
+43
+    <Variable name="main.color" description="Theme Color" type="color" default="#4886ff" value="#4886ff"/>
+44
+    <Variable name="title.color" description="Title Color" type="color" default="#15161A" value="#15161A"/>
+45
+    <Variable name="title.hover.color" description="Title Hover Color" type="color" default="$(main.color)" value="#4886ff"/>
+46
+    <Variable name="meta.color" description="Meta Color" type="color" default="#76767A" value="#76767A"/>
+47
+    <Variable name="text.color" description="Text Color" type="color" default="#47474A"  value="#47474A"/>
+48
+</Group>
+49
+<Group description="Topbar" selector=".topbar-items">
+50
+    <Variable name="topbar.bg" description="Topbar Background" type="color" default="#3b6ed1" value="#3b6ed1"/>
+51
+    <Variable name="topbar.color" description="Topbar Color" type="color" default="#ffffff" value="#ffffff"/>
+52
+    <Variable name="topbar.hover.color" description="Topbar Hover Color" type="color" default="$(main.color)" value="#4886ff"/>
+53
+</Group>
+54
+<Group description="Site Header" selector="#header-wrapper">
+55
+    <Variable name="header.bg" description="Header Background 1" type="color" default="#4886ff" value="#4886ff"/>
+56
+    <Variable name="header.bg1" description="Header Background 2" type="color" default="#45f7dc" value="#45f7dc"/>
+57
+    <Variable name="header.color" description="Header Color" type="color" default="#ffffff" value="#ffffff"/>
+58
+    <Variable name="header.hover.color" description="Header Hover Color" type="color" default="#BDD0F2" value="#BDD0F2"/>
+59
+</Group>
+60
+<Group description="Sub Menu">
+61
+    <Variable name="submenu.bg" description="Sub Menu Background" type="color" default="#FFFFFF" value="#FFFFFF"/>
+模板：修改模板
